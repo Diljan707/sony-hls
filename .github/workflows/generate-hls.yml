@@ -1,40 +1,32 @@
-name: Generate PTC Punjabi HLS
+addEventListener('fetch', event => {
+  event.respondWith(handleRequest(event.request))
+})
 
-on:
-  schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes
-  workflow_dispatch:
+const ORIGINAL_STREAM = "http://103.182.170.32:8888/play/a04g"
 
-jobs:
-  build:
-    runs-on: ubuntu-latest
+async function handleRequest(request) {
+  const url = new URL(request.url)
 
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+  // Direct fetch original stream
+  const response = await fetch(ORIGINAL_STREAM, {
+    method: request.method,
+    headers: {
+      "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/121.0.0.0 Safari/537.36",
+      "Accept": "*/*",
+      "Referer": ORIGINAL_STREAM,
+      "Origin": ORIGINAL_STREAM,
+      "Host": "103.182.170.32"
+    }
+  })
 
-      - name: Install FFmpeg
-        run: |
-          sudo apt update
-          sudo apt install -y ffmpeg
+  // Set headers for CORS & no-cache
+  const newHeaders = new Headers(response.headers)
+  newHeaders.set("Access-Control-Allow-Origin", "*")
+  newHeaders.set("Cache-Control", "no-cache")
+  newHeaders.set("Pragma", "no-cache")
 
-      - name: Create output folder
-        run: mkdir -p hls/ptc
-
-      - name: Run FFmpeg for PTC Punjabi
-        run: |
-          ffmpeg -i "http://103.182.170.32:8888/play/a04g" \
-          -c:v copy -c:a copy \
-          -hls_time 4 \
-          -hls_list_size 5 \
-          -hls_flags delete_segments \
-          -hls_segment_filename "hls/ptc/segment_%03d.ts" \
-          hls/ptc/playlist.m3u8
-
-      - name: Upload HLS to repo
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add .
-          git commit -m "Updated PTC Punjabi HLS"
-          git push
+  return new Response(response.body, {
+    status: response.status,
+    headers: newHeaders
+  })
+}
