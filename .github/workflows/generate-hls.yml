@@ -1,6 +1,8 @@
 name: Generate PTC Punjabi HLS
 
 on:
+  schedule:
+    - cron: "*/5 * * * *"
   workflow_dispatch:
 
 permissions:
@@ -19,16 +21,19 @@ jobs:
     - name: Install ffmpeg
       run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-    - name: Generate HLS (Bufferless)
+    - name: Generate HLS From TS Stream
       run: |
         mkdir -p hls
-        ffmpeg -fflags +genpts -rw_timeout 30000000 \
+        ffmpeg \
+        -reconnect 1 -reconnect_at_eof 1 -reconnect_streamed 1 -reconnect_delay_max 2 \
         -i "http://103.182.170.32:8888/play/a04g" \
-        -c copy -hls_time 4 -hls_list_size 0 -hls_flags delete_segments \
-        -hls_segment_filename "hls/seg_%05d.ts" \
+        -c copy \
+        -hls_time 4 \
+        -hls_list_size 5 \
+        -hls_flags delete_segments+independent_segments \
         hls/index.m3u8
 
-    - name: Commit and push
+    - name: Commit and push HLS
       run: |
         git config user.name "github-actions"
         git config user.email "github-actions@github.com"
