@@ -1,0 +1,43 @@
+name: Generate Sony HLS
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"
+  workflow_dispatch: {}
+
+jobs:
+  ffmpeg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update -y
+          sudo apt-get install -y ffmpeg
+
+      - name: Make HLS dir
+        run: mkdir -p hls
+
+      - name: Run FFmpeg
+        run: |
+          rm -f hls/*
+          ffmpeg -y -hide_banner -loglevel warning \
+            -headers "User-Agent: Lavf/59.27.100\r\n" \
+            -i "http://103.182.170.32:8888/play/a04g" \
+            -c copy \
+            -f hls \
+            -hls_time 2 \
+            -hls_list_size 3 \
+            -hls_flags delete_segments+append_list \
+            -hls_segment_type mpegts \
+            hls/index.m3u8
+
+      - name: Commit files
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add hls
+          git commit -m "Update HLS" || echo "No changes"
+          git push
