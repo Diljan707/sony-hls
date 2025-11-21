@@ -1,43 +1,37 @@
-name: Generate Sony HLS
+name: Generate PTC Punjabi HLS
 
 on:
-  schedule:
-    - cron: "*/5 * * * *"
-  workflow_dispatch: {}
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  ffmpeg:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+    - name: Checkout repo
+      uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
 
-      - name: Install ffmpeg
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y ffmpeg
+    - name: Install ffmpeg
+      run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
-      - name: Make HLS dir
-        run: mkdir -p hls
+    - name: Generate HLS (Bufferless)
+      run: |
+        mkdir -p hls
+        ffmpeg -fflags +genpts -rw_timeout 30000000 \
+        -i "http://103.182.170.32:8888/play/a04g" \
+        -c copy -hls_time 4 -hls_list_size 0 -hls_flags delete_segments \
+        -hls_segment_filename "hls/seg_%05d.ts" \
+        hls/index.m3u8
 
-      - name: Run FFmpeg
-        run: |
-          rm -f hls/*
-          ffmpeg -y -hide_banner -loglevel warning \
-            -headers "User-Agent: Lavf/59.27.100\r\n" \
-            -i "http://103.182.170.32:8888/play/a04g" \
-            -c copy \
-            -f hls \
-            -hls_time 2 \
-            -hls_list_size 3 \
-            -hls_flags delete_segments+append_list \
-            -hls_segment_type mpegts \
-            hls/index.m3u8
-
-      - name: Commit files
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git add hls
-          git commit -m "Update HLS" || echo "No changes"
-          git push
+    - name: Commit and push
+      run: |
+        git config user.name "github-actions"
+        git config user.email "github-actions@github.com"
+        git add hls/*
+        git commit -m "Update HLS" || echo "No changes"
+        git push
