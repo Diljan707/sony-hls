@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Live Stream - Non Stop</title>
+<title>Bufferless Stream Player</title>
 
 <style>
 body {
@@ -17,28 +17,33 @@ video {
 </style>
 
 <script>
-// Prevent pause
-function alwaysPlay() {
-    const v = document.getElementById("player");
-    if (v.paused) v.play();
+function startAutoRefresh() {
+    const video = document.getElementById("player");
+
+    setInterval(() => {
+        try {
+            const liveURL = "http://103.182.170.32:8888/play/a04g?t=" + Date.now();
+
+            // Replace video source without stopping playback
+            const wasPlaying = !video.paused;
+
+            video.src = liveURL;
+
+            if (wasPlaying) {
+                video.play().catch(()=>{});
+            }
+        } catch (e) {}
+    }, 6000);
 }
 
-// Auto reload every 6 seconds (bufferless)
-setInterval(() => {
-    const v = document.getElementById("player");
-    const base = v.src.split("?")[0];
-    v.src = base + "?t=" + Date.now();
-    v.play();
-}, 6000);
-
-setInterval(alwaysPlay, 500); // check every 0.5 sec
+window.onload = startAutoRefresh;
 </script>
 
 </head>
 <body>
 
-<video id="player" autoplay playsinline muted>
-    <source src="http://103.182.170.32:8888/play/a04g" type="application/x-mpegURL">
+<video id="player" autoplay controls playsinline>
+  <source src="http://103.182.170.32:8888/play/a04g" type="application/x-mpegURL">
 </video>
 
 </body>
