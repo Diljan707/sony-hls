@@ -1,0 +1,15 @@
+#EXTM3U
+#EXTINF:-1 tvg-id="ptcpunjabi.in" tvg-name="PB: PTC PUNJABI" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/88/PTC_Punjabi.png" group-title="PUNJABI",PB: PTC PUNJABI (via worker - primary)
+#EXTVLCOPT:network-caching=500
+#EXTVLCOPT:http-continuous=true
+https://bypass.diljankhehra.workers.dev/?url=https://webhop.live/live/Anagha/Anagha/171.ts
+
+# fallback: same channel via worker with lowlatency flag
+#EXTINF:-1 tvg-id="ptcpunjabi.in" tvg-name="PB: PTC PUNJABI (lowlatency)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/88/PTC_Punjabi.png" group-title="PUNJABI",PB: PTC PUNJABI (lowlatency)
+#EXTVLCOPT:network-caching=300
+https://bypass.diljankhehra.workers.dev/?url=https://webhop.live/live/Anagha/Anagha/171.ts&lowlatency=1
+
+# fallback 2: attempt HLS wrapper (if upstream provides .m3u8)
+#EXTINF:-1 tvg-id="ptcpunjabi.in" tvg-name="PB: PTC PUNJABI (HLS try)" tvg-logo="https://upload.wikimedia.org/wikipedia/en/8/88/PTC_Punjabi.png" group-title="PUNJABI",PB: PTC PUNJABI (HLS)
+#EXTVLCOPT:network-caching=400
+https://bypass.diljankhehra.workers.dev/?url=https://webhop.live/live/Anagha/Anagha/171.m3u8
