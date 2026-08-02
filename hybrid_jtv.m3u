@@ -22,7 +22,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ColorsHD_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/146/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785638105~exp=1785659705~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=3f8a668f3375dcd920aa40b688815d3ee6e22d3e9f220f0ea62c7852fa661a24"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785660012~exp=1785681612~acl=/bpk-tv/History_HD_BTS/WDVLive/*~hmac=98704860b7c3691db05bd2e16de39a21569f7feb1123d2561118f4668391f00e"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/History_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="151" tvg-name="Movies Now HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Movies_Now_HD.png" group-title="English",Movies Now HD
@@ -54,7 +54,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Star_Gold_HD_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/164/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785645607~exp=1785667207~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=9f6a1e5e4e9557a913d1cc677ab949bd219b0959e96985844253a94c550c4cdc"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785667512~exp=1785689112~acl=/bpk-tv/Travel_XP_HD_BTS/WDVLive/*~hmac=204222fc0e4ee8f29cb348209683869790c9120c73df6a355f768665e01c2a70"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="165" tvg-name="Zee Cinema HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeCinemaHD.png" group-title="Movies",Zee Cinema HD
@@ -78,7 +78,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNTelugu_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/167/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785635419~exp=1785657019~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=5088fb4be1fe3481bc6aea045d324d74c5c85a58b215563be39a4056f7c44355"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785657306~exp=1785678906~acl=/bpk-tv/ZeeTVHD_BTS/WDVLive/*~hmac=7f45702a35e5cba6e2a7696c82ea1b34e4bca6488d2ca03e68cb6ae8d49a2d98"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeTVHD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="173" tvg-name="Aaj Tak" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Aaj_Tak.png" group-title="News",Aaj Tak
@@ -470,7 +470,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/ZeeYuva_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/415/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785637207~exp=1785658807~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=b14b76c1d60724d147f6914c1dc8c7560049cce5b8c22c41989a57cab2f3d88d"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785658809~exp=1785680409~acl=/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/*~hmac=2cce2b9fb7777aee54350813ed963a159140c1fb2948630282bf44ba15562649"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/ZeeAnmolCinema_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="417" tvg-name="J Movies" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/J_Movies.png" group-title="Tamil",J Movies
@@ -622,7 +622,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Sony_SAB_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/472/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785648305~exp=1785669905~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=0d80fbb38acb8aae5d8734ff8ec6cc0d537cbbbaf41a08682fad125e93cd55a0"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785669908~exp=1785691508~acl=/bpk-tv/AndTVHD_BTS/WDVLive/*~hmac=56f8579ce4f2e5c86daa6b17b16bcc2ba26a07e64801453a7e6a984fb4ae3bf5"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/AndTVHD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="473" tvg-name="Anmol TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/ZeeAnmol.png" group-title="Entertainment",Anmol TV
@@ -1118,7 +1118,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Food_Food_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/562/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785646208~exp=1785667808~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=faaf3a4cf3a017d6b0ffda5cbf2310136ee5c2e127936a1aeec8617c0a51de59"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785668099~exp=1785689699~acl=/bpk-tv/Travel_XP_BTS/WDVLive/*~hmac=28b1f283ccd8413c9c4226f57376b582fcbebd19b632be57a890d3bc0186be39"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Travel_XP_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="563" tvg-name="Kaumudy TV" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Kaumudy_TV.png" group-title="Malayalam",Kaumudy TV
@@ -2638,7 +2638,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNTamil_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/821/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785646506~exp=1785668106~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=59a389938791efc2ffa0ce58163b5a4e681e7c95556bdaff2c8ada44649ea135"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785668707~exp=1785690307~acl=/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/*~hmac=bb7cd403e3d1efabd9ab2f03bb4eeb7a2a3e02432befaa76e6db1984758a3337"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/SonyBBCEarthHin_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="824" tvg-name="Puthu Yugam" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Puthu_Yugam.png" group-title="Tamil",Puthu Yugam
@@ -4334,7 +4334,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/DD_Gyandarshan_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/1332/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785647411~exp=1785669011~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=c8fccec299886d4509cc8b44de9673b3baf92e64732136b859be2a94c8f46e4e"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785669323~exp=1785690923~acl=/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/*~hmac=efbe749f248470505693facec4363112be64b15e3f0b53b93471cc1fe931a15a"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1335" tvg-name="National Geographic HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/National_Geographic_HD.png" group-title="English",National Geographic HD
@@ -4342,7 +4342,7 @@ https://jiotvpllive.cdn.jio.com/bpk-tv/Nat_Geo_Wild_HD_BTS/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/1335/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785647414~exp=1785669014~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=646dda9e5d88ede7b57780131f46ed5089474e74812674e331aea49d90583677"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785669326~exp=1785690926~acl=/bpk-tv/National_Geographic_HD_BTS/WDVLive/*~hmac=b4842efa32084e91bc90ae0b821cb92404624fbbce82c87d3fc4aea38d795a23"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/National_Geographic_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1338" tvg-name="RT India" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/RT_TV.png" group-title="English",RT India
@@ -5246,7 +5246,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/Rongeen_TV_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/1668/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785641116~exp=1785662716~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=36855f4b6580b805cd0942e925324ed0c489fdf72c232184dad02bea209e5bc1"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785662734~exp=1785684334~acl=/bpk-tv/AndXploreHD_BTS/WDVLive/*~hmac=74dd392333f03a36e97bf7e6d9d56aa26dcfe0c4abaa49c3f51c673de8275ddd"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/AndXploreHD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="1669" tvg-name="Sun Bangla" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Sun_Bangla.png" group-title="Bengali",Sun Bangla
@@ -7278,7 +7278,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/NDTV_Marathi_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_type=clearkey
 #KODIPROP:inputstream.adaptive.license_key=https://ziotvplus.yowaimo.in/license/3096/
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
-#EXTHTTP:{"cookie":"__hdnea__=st=1785636623~exp=1785658223~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=df2f2de9aba706df24da24268999fa54d7caccd08ee69cde2575e4e83c7bfe47"}
+#EXTHTTP:{"cookie":"__hdnea__=st=1785658338~exp=1785679938~acl=/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/*~hmac=761324b4c6adf5075ac51d088867d3450529e8e82c8b1517e5fd2eac724d13cd"}
 https://jiotvpllive.cdn.jio.com/bpk-tv/Star_Gold_2_HD_BTS/WDVLive/index.mpd
 
 #EXTINF:-1 tvg-id="3097" tvg-name="Star Gold Romance" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/Star_Gold_Romance.png" group-title="Movies",Star Gold Romance
