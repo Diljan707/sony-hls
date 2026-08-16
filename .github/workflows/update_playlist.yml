@@ -2,7 +2,7 @@ name: Update Sony Playlist
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # ਹਰ 4 ਘੰਟੇ ਬਾਅਦ ਆਟੋਮੈਟਿਕ ਅੱਪਡੇਟ
+  - cron: '*/20 * * * *'
   workflow_dispatch: # ਮੈਨੂਅਲ ਰਨ ਕਰਨ ਲਈ
 
 jobs:
