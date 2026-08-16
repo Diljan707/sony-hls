@@ -20,6 +20,9 @@ try:
         for ch_id, ch_info in data.items():
             title = ch_info.get("title", ch_id.upper())
             playlist_url = ch_info.get("m3u8", "")
+            
+            # ਚੈਨਲ ਦਾ ਲੋਗੋ ਕੱਢਣ ਲਈ (ਜੇ JSON ਵਿੱਚ logo ਜਾਂ poster ਨਾਂ ਦੀ key ਹੋਵੇ)
+            logo_url = ch_info.get("logo", ch_info.get("poster", ""))
 
             if playlist_url:
                 try:
@@ -33,7 +36,13 @@ try:
                                 highest_res_link = line
 
                         if highest_res_link:
-                            m3u_data += f'#EXTINF:-1,{title}\n{highest_res_link}\n\n'
+                            #EXTINF ਲાઈන් ਵਿੱਚ tvg-logo ਜੋੜ ਦਿੱਤਾ ਗਿਆ ਹੈ
+                            if logo_url:
+                                m3u_data += f'#EXTINF:-1 tvg-logo="{logo_url}",{title}\n'
+                            else:
+                                m3u_data += f'#EXTINF:-1,{title}\n'
+                                
+                            m3u_data += f'{highest_res_link}\n\n'
                             count += 1
                 except Exception as inner_e:
                     print(f"{title} ਦਾ ਲਿੰਕ ਕੱਢਣ ਵਿੱਚ ਦਿੱਕਤ: {inner_e}")
@@ -42,7 +51,7 @@ try:
         with open(filename, "w", encoding="utf-8") as f:
             f.write(m3u_data)
 
-        print(f"ਕੁੱਲ {count} ਚੈਨਲਾਂ ਦੇ ਤਾਜ਼ਾ ਟੋਕਨ ਵਾਲੇ ਲਿੰਕ ਸਫਲਤਾਪੂਰਵਕ ਅੱਪਡੇਟ ਹੋ ਗਏ ਨੇ!")
+        print(f"ਕੁੱਲ {count} ਚੈਨਲਾਂ ਦੇ ਤਾਜ਼ਾ ਟੋਕਨ ਅਤੇ ਲੋਗੋ ਵਾਲੇ ਲਿੰਕ ਸਫਲਤਾਪੂਰਵਕ ਅੱਪਡੇਟ ਹੋ ਗਏ ਨੇ!")
 
     else:
         print(f"ਮੇਨ JSON ਫ਼ਾਈਲ ਨਹੀਂ ਖੁੱਲ੍ਹੀ, ਸਟੇਟਸ ਕੋਡ: {res.status_code}")
