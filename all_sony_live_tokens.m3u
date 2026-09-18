@@ -1,43 +1,43 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",SONY HD
-https://dishmt.slivcdn.com/hls/live/2011671/SETHD/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011671/SETHD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",SAB HD
-https://dishmt.slivcdn.com/hls/live/2011749/SABHD/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011749/SABHD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png",SONY MARATHI
-https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pal.png",SONY PAL
-https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011741/SonyPalSD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_aath.png",SONY AATH
-https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011641/SonyAathSD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Yay_Hindi.png",SONY YAY
-https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011746/SonyYaySD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_HD.png",SONY MAX HD
-https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011670/SonyMaxhd/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Max_SD.png",SONY MAX
-https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011745/SonyMaxSD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Wah.png",SONY WAH
-https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011906/SonyWah/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_MAX2.png",SONY MAX2
-https://dishmt.slivcdn.com/hls/live/2011908/MAX2/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011908/MAX2/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Pix_HD.png",SONY PIX HD
-https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011748/PIXHD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_HD.png",SONY TEN 1 HD
-https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011747/TEN1HD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten_1.png",SONY TEN 1
-https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/hdntl=exp=1789808417~acl=%2f*~id=14a8ccd7-57d3-4e3c-8e9c-0807c6d6d593~data=hdntl~hmac=c9b1d83bbfb7b0162d0caacaed42b7029a61cf18f192a542a88c19b84561b3d0/master_3500.m3u8?aka_me_session_id=AAAAAAAAAAAhT65qAAAAAFCbvxd8GBGS+vG6MKNJAzKO%2fdT3dfeeICsgc%2ftQyNa3RlOri6QzW20dVK0+7bFUb6RlmOoUSp5X&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011739/TEN1SD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Ten2_HD.png",SONY TEN 2 HD
 https://dishmt.slivcdn.com/hls/live/2020434/TEN2HD/hdntl=exp=1789851619~acl=%2f*~id=3c0b06dd-02ab-4f75-b333-124266e45505~data=hdntl~hmac=c6f956ea96d890f82da9f3dc773647668fb0b31102892771b068dc9ae954b234/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADj965qAAAAAFSVxVUTVvbBMZ+LEY+nfCiK9szlw+5yxTHQAguVvXu9B6o17Zh1hUHQLpAQKFZw%2f1xTPFFc4lkG&aka_media_format_type=hls
