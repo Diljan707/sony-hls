@@ -1,10 +1,10 @@
 #EXTM3U
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_HD.png",SONY HD
-https://dishmt.slivcdn.com/hls/live/2011671/SETHD/hdntl=exp=1795384809~acl=%2f*~id=471169b8-0633-46aa-a88d-00b6e96cb3a3~data=hdntl~hmac=21ac8d82530dd63302054c5a44a65b78001d7b37258bc0d4600210a630f60eb6/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADpZQNrAAAAAKN85NZn90pM6i8JUEiTbOegmYpz6TUvSB8XGgojo2B26DPlGOBbD4aaCFtALq%2feJjYnBEd6ZHDA&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011671/SETHD/hdntl=exp=1795428009~acl=%2f*~id=5f791eef-bbf9-400f-a902-1a58676a1d95~data=hdntl~hmac=21d79b22e6c0e8475512b30bcaab3373e058da5452f2d5ac6e1159ebb92303fc/master_3500.m3u8?aka_me_session_id=AAAAAAAAAACpDgRrAAAAAA35p4ZERRLmI2FCZVI6V7FzdYn4sSzeGZ2vYdNVVtFYo9qNdNWCUrM5paPDWbvLtjCZq05+EJ7E&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_SAB_HD.png",SAB HD
-https://dishmt.slivcdn.com/hls/live/2011749/SABHD/hdntl=exp=1795384809~acl=%2f*~id=471169b8-0633-46aa-a88d-00b6e96cb3a3~data=hdntl~hmac=21ac8d82530dd63302054c5a44a65b78001d7b37258bc0d4600210a630f60eb6/master_3500.m3u8?aka_me_session_id=AAAAAAAAAADpZQNrAAAAAKN85NZn90pM6i8JUEiTbOegmYpz6TUvSB8XGgojo2B26DPlGOBbD4aaCFtALq%2feJjYnBEd6ZHDA&aka_media_format_type=hls
+https://dishmt.slivcdn.com/hls/live/2011749/SABHD/hdntl=exp=1795428009~acl=%2f*~id=5f791eef-bbf9-400f-a902-1a58676a1d95~data=hdntl~hmac=21d79b22e6c0e8475512b30bcaab3373e058da5452f2d5ac6e1159ebb92303fc/master_3500.m3u8?aka_me_session_id=AAAAAAAAAACpDgRrAAAAAA35p4ZERRLmI2FCZVI6V7FzdYn4sSzeGZ2vYdNVVtFYo9qNdNWCUrM5paPDWbvLtjCZq05+EJ7E&aka_media_format_type=hls
 
 #EXTINF:-1 tvg-logo="https://jiotvimages.cdn.jio.com/dare_images/images/Sony_Marathi_SD.png",SONY MARATHI
 https://dishmt.slivcdn.com/hls/live/2011740/SonyMarathi/hdntl=exp=1795428009~acl=%2f*~id=5f791eef-bbf9-400f-a902-1a58676a1d95~data=hdntl~hmac=21d79b22e6c0e8475512b30bcaab3373e058da5452f2d5ac6e1159ebb92303fc/master_3500.m3u8?aka_me_session_id=AAAAAAAAAACpDgRrAAAAAA35p4ZERRLmI2FCZVI6V7FzdYn4sSzeGZ2vYdNVVtFYo9qNdNWCUrM5paPDWbvLtjCZq05+EJ7E&aka_media_format_type=hls
