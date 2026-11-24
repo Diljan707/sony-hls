@@ -13,7 +13,7 @@ https://jiotvmblive.cdn.jio.com/bpk-tv/CNBCTV18Prime_MOB/WDVLive/index.mpd
 #KODIPROP:inputstream.adaptive.license_key=5360e12d4bb2519a9148d1089a55908d:7e8f500cef51595f3d43acafab1a8fb4
 #EXTVLCOPT:http-user-agent=plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile
 #EXTHTTP:{"User-Agent": "plaYtv/7.1.5 (StreamFlex;Android 16) JioTvMobile", "Referer": "https://www.jiocinema.com/", "Origin": "https://www.jiocinema.com"}
-https://jiotvmblive.cdn.jio.com/bpk-tv/ColorsHD_MOB/WDVLive/index.mpd
+https://jiotvmblive.cdn.jio.com/bpk-tv/ColorsHD_MOB/WDVLive/index.mpd?__hdnea__=st=1795451408~exp=1795537808~acl=/*~hmac=cc4b5b2d0954a37f757e8dabce06a7946fabc3ff10797326aa4edc4f28452e7c
 
 #EXTINF:-1 tvg-id="146" tvg-name="History TV18 HD" tvg-logo="https://jiotv.catchup.cdn.jio.com/dare_images/images/History_HD.png" group-title="English",History TV18 HD
 #KODIPROP:inputstream.adaptive.manifest_type=mpd
